@@ -204,6 +204,11 @@ server {
 
 Escape untrusted HTML with `esc()`. Bind query values through `DB::`, which uses PDO prepared statements. Do not build include paths from request input.
 
+## Author
+
+Developed by Dayal Chandra Roy.  
+Email: [dayal01759712574@gmail.com](mailto:dayal01759712574@gmail.com)
+
 ## License
 
 Open source under the [MIT license](LICENSE).

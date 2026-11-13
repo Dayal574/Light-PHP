@@ -12,6 +12,7 @@ $template->section('content');
             <p>Light PHP is for small applications that should stay close to PHP itself. Routes, controllers and views are ordinary classes and files. There is no template language to compile and no ORM to learn first.</p>
             <p>The global helpers cover the work that usually gets messy: reading the request, escaping HTML, saving a form, and running a prepared query. Schema changes stay on <code class="rounded bg-orange-100 px-1.5 py-0.5 text-base">DBdelta</code>, so they are explicit.</p>
             <p>When a page does not need a layout, it can be plain PHP. <code class="rounded bg-orange-100 px-1.5 py-0.5 text-base">get_header()</code> still works if you add those components yourself.</p>
+            <p>Developed by Dayal Chandra Roy. Email: <a class="text-orange-700 hover:text-stone-900" href="mailto:dayal01759712574@gmail.com">dayal01759712574@gmail.com</a></p>
         </div>
         <aside class="h-fit rounded-3xl bg-stone-900 p-6 text-stone-100">
             <h2 class="font-display text-2xl">Included</h2>

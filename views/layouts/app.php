@@ -52,7 +52,7 @@ $current = request()->path();
 <?php $template->yield('content'); ?>
 <footer class="border-t border-stone-200">
     <div class="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-8 text-sm text-stone-500 sm:flex-row sm:items-center sm:justify-between">
-        <p>Light PHP &middot; a Core PHP starter</p>
+        <p>Developed by <a class="hover:text-stone-900" href="mailto:dayal01759712574@gmail.com">Dayal Chandra Roy</a></p>
         <a href="/documentation" class="hover:text-stone-900">Documentation</a>
     </div>
 </footer>
