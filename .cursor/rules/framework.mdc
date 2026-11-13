@@ -1,0 +1,14 @@
+---
+description: How to build pages and features in the Light PHP starter
+alwaysApply: true
+---
+
+# Light PHP
+
+Follow `AGENTS.md` before adding application code.
+
+- Add a page with a view under `views/pages/`, a controller method that returns `view()`, and a `Route::` line in `routes/web.php`.
+- Reuse `views/layouts/app.php` and Tailwind. Do not introduce Blade, Eloquent, or another CSS framework.
+- In views, call `DB::`, `request()`, and `esc()` directly. In `App\` classes, call `\DB::`.
+- Import `App\Core\DBdelta` for schema changes. Verify CSRF yourself with `csrf_verify()`.
+- Keep new helpers in `app/Helpers/helpers.php`. Leave `app/Core` unchanged for ordinary features.

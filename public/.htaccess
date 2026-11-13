@@ -1,0 +1,12 @@
+Options -Indexes
+RewriteEngine On
+
+# Serve existing public assets/files directly; send application routes to the front controller.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+
+# Deny hidden files.
+<FilesMatch "^\\.">
+    Require all denied
+</FilesMatch>

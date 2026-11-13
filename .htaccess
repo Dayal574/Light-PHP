@@ -1,0 +1,11 @@
+Options -Indexes
+RewriteEngine On
+
+# Never expose application internals when the project root is used as document root.
+RewriteRule ^(app|bootstrap|config|routes|views|vendor|storage)(/|$) - [F,L,NC]
+RewriteRule (^|/)\. - [F,L]
+
+# Existing files (including /public/assets/...) are served as-is.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
