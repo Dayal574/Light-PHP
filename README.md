@@ -203,3 +203,7 @@ server {
 ```
 
 Escape untrusted HTML with `esc()`. Bind query values through `DB::`, which uses PDO prepared statements. Do not build include paths from request input.
+
+## License
+
+Open source under the [MIT license](LICENSE).
