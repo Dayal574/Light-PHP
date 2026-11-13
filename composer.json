@@ -1,7 +1,19 @@
 {
-    "name": "dayal/lightweight-php-framework",
+    "name": "light-php/light-php",
     "description": "A tiny Core PHP framework with routing, controllers, views and helpers.",
     "type": "project",
+    "keywords": ["php", "framework", "light-php", "core-php"],
+    "homepage": "https://github.com/Dayal574/Light-PHP",
+    "support": {
+        "issues": "https://github.com/Dayal574/Light-PHP/issues",
+        "source": "https://github.com/Dayal574/Light-PHP"
+    },
+    "authors": [
+        {
+            "name": "Dayal Chandra Roy",
+            "homepage": "https://github.com/Dayal574"
+        }
+    ],
     "require": {
         "php": ">=8.1",
         "vlucas/phpdotenv": "^5.6"
