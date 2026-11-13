@@ -1,5 +1,5 @@
 {
-    "name": "light-php/light-php",
+    "name": "dayal/light-php",
     "description": "A tiny Core PHP framework with routing, controllers, views and helpers.",
     "type": "project",
     "keywords": ["php", "framework", "light-php", "core-php"],

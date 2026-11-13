@@ -7,13 +7,13 @@ It is not Laravel. There is no Blade, no Eloquent, and no migration builder. Dyn
 ## Start
 
 ```bash
-composer create-project light-php/light-php my-app
+composer create-project dayal/light-php my-app
 cd my-app
 cp .env.example .env
 php artisan serve
 ```
 
-That downloads a ready application into `my-app`, with routes, views, and `public/`. `composer require light-php/light-php` does not do this: it only drops the package into `vendor/` of a project you already have.
+That downloads a ready application into `my-app`, with routes, views, and `public/`. `composer require dayal/light-php` does not do this: it only drops the package into `vendor/` of a project you already have.
 
 Open `http://127.0.0.1:8000`. Change the address with `php artisan serve --host=0.0.0.0 --port=8080`.
 
